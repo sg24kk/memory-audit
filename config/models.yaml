@@ -1,0 +1,343 @@
+# Model roster -> probe capability, hardware, and arm assignment.
+#
+# The roster is split into two ARMS by a hard technical constraint, not by
+# preference:
+#
+#   availability  -- needs TEACHER-FORCED log-probabilities. We supply both the
+#                    prompt AND the scholar's name, and read back the log-prob
+#                    the model assigns to that exact name, token by token. This
+#                    requires running the weights ourselves.
+#
+#   recognition   -- needs only generation. Ask the model about a scholar, score
+#                    the answer against the field/institution/contribution
+#                    rubric. Any chat API can do this.
+#
+# Why the split is forced rather than chosen: hosted APIs return log-probs only
+# for tokens the model ITSELF generated, plus a top-k list (~20) of alternatives
+# per position. If a scholar's name is not in that top-k, the API returns no
+# measurement at all -- you learn only "less likely than my 20th guess". The
+# scholars with the lowest availability are precisely the ones this study is
+# about, so that missingness would correlate with BOTH the outcome and
+# demographics. Unusable. Hence: availability probes run on weights we control.
+#
+# Verified 2026-08-22 (Colab):
+#   * Free tier = T4, ~15.4 GB usable VRAM, 12h sessions, 100 compute units/mo,
+#     and GPU can be refused entirely during US peak hours.
+#   * Pro ($11.99/mo) = priority L4 (24 GB) and A100 (40 GB), 51 GB system RAM,
+#     500 CU/mo, 24h sessions.
+#   * NEITHER tier guarantees a specific accelerator per session.
+#
+# Consequence: of the seven availability models, only Phi fits a free-tier T4 in
+# fp16. Colab Pro is required for the rest. See `hardware` below.
+
+# --------------------------------------------------------------- hardware --
+
+hardware:
+  # fp16 is the target everywhere. Quantisation is NOT a silent fallback:
+  # 4-bit and 8-bit change the log-probabilities we are measuring, so a
+  # quantised run is a different experiment, not a cheaper one. If VRAM is
+  # short the runner must HALT and say so rather than quantise -- same
+  # principle as the S3 controls refusing to proceed on a broken instrument.
+  #
+  # If quantisation ever becomes unavoidable, it requires a documented
+  # fp16-vs-quantised comparison on a subsample before any number is trusted.
+  dtype: float16
+  allow_quantisation_fallback: false
+
+  colab_t4_vram_gb: 14.6      # free tier -- MEASURED on a live runtime
+                              # 2026-08-22, not the ~15.4 the docs imply.
+                              # Tightens the constraint: only Phi fits in fp16.
+  colab_l4_vram_gb: 24.0      # Pro
+  colab_a100_vram_gb: 40.0    # Pro, higher CU burn
+
+  # Weights are disposable, results are not. Colab storage is ephemeral and
+  # free Google Drive is only 15 GB, so DO NOT cache 7 checkpoints to Drive.
+  # Run one model per session: download to the VM's local scratch, score every
+  # scholar, write the (small) results file to Drive, discard the weights.
+  one_model_per_session: true
+
+# ------------------------------------------------------- availability arm --
+
+# Seven open-weight families. All run on Colab, all expose teacher-forced
+# log-probs through HuggingFace transformers.
+#
+# `tokenizer_family` keys into the {family}_tokens columns already computed in
+# tokenizer/results/token_counts.parquet.
+
+availability:
+  pythia:
+    hf_id: EleutherAI/pythia-6.9b
+    dev_id: EleutherAI/pythia-410m     # laptop development, 4 GB VRAM
+    params_b: 6.9
+    vram_fp16_gb: 16
+    gated: false
+    base_model: true
+    tokenizer_family: pythia
+    # Token counts were computed with pythia-410m. Safe: every Pythia size
+    # shares the same GPT-NeoX tokenizer, so the counts hold for 6.9b.
+    corpus: pile                       # corpus-transparent, see RQ7
+    notes: >
+      Kept in the roster primarily for corpus transparency -- the Pile is
+      queryable via the infini-gram API, so name frequency in training data
+      can be measured directly rather than inferred.
+
+  olmo:
+    hf_id: allenai/OLMo-2-1124-7B
+    dev_id: allenai/OLMo-2-0425-1B
+    params_b: 7.3
+    vram_fp16_gb: 17
+    gated: false
+    base_model: true
+    tokenizer_family: olmo
+    corpus: dolma                      # corpus-transparent, see RQ7
+    notes: >
+      The second corpus-transparent model. Dolma is also served by
+      infini-gram. Together with Pythia this is what makes RQ7 answerable
+      at all -- the other five families' training data is undisclosed.
+
+  qwen:
+    hf_id: Qwen/Qwen2.5-7B
+    dev_id: Qwen/Qwen2.5-0.5B
+    params_b: 7.6
+    vram_fp16_gb: 17.5
+    gated: false
+    base_model: true
+    tokenizer_family: qwen
+    corpus: null
+    notes: >
+      Non-Western training emphasis relative to the rest of the roster;
+      useful contrast for the ethnicity arm specifically.
+
+  phi:
+    hf_id: microsoft/Phi-3.5-mini-instruct
+    dev_id: microsoft/Phi-3.5-mini-instruct
+    params_b: 3.8
+    vram_fp16_gb: 9
+    gated: false
+    base_model: false                  # <-- see notes; the roster's one exception
+    variant: instruct                  # no base Phi exists, so it has no pair
+    tokenizer_family: phi
+    corpus: null
+    notes: >
+      KNOWN CONFOUND, recorded rather than hidden: every other availability
+      model is a BASE checkpoint, but Microsoft does not publish a base
+      Phi-3.5-mini -- the Phi line is released instruction-tuned only.
+      Instruction tuning changes probability calibration, so Phi's absolute
+      log-probs are not directly comparable to the other six. Treat Phi as
+      a within-model comparison (does the gender/ethnicity gap appear inside
+      Phi?) and exclude it from cross-model absolute-magnitude claims.
+      Also the only model that fits a free-tier T4 in fp16.
+
+  mistral:
+    hf_id: mistralai/Mistral-7B-v0.3
+    dev_id: null                       # no small Mistral; use Qwen/Pythia for dev
+    params_b: 7.25
+    vram_fp16_gb: 17
+    gated: false
+    base_model: true
+    tokenizer_family: mistral
+    corpus: null
+
+  llama:
+    hf_id: meta-llama/Llama-3.1-8B
+    dev_id: null
+    params_b: 8.03
+    vram_fp16_gb: 18.5
+    gated: true                        # HF_TOKEN + accepted licence; already granted
+    base_model: true
+    tokenizer_family: llama
+    corpus: null
+
+  gemma:
+    hf_id: google/gemma-2-9b
+    dev_id: google/gemma-2-2b
+    params_b: 9.24
+    vram_fp16_gb: 21
+    gated: true                        # HF_TOKEN + accepted licence; already granted
+    base_model: true
+    tokenizer_family: gemma
+    corpus: null
+    notes: >
+      Largest in the roster. Needs L4 24 GB -- will not fit a T4 in fp16.
+
+  # --- ALIGNMENT AND REASONING PAIRS (added 2026-08-31) -------------------
+  #
+  # Each entry below is the SAME pretrained model as an entry above, differing
+  # in exactly one thing. That is what makes them a matched comparison at the
+  # model level: pretraining, parameter count and tokenizer are held constant,
+  # so a measured difference is attributable to the one thing that changed.
+  #
+  #   variant: instruct   -- base + instruction tuning + RLHF
+  #   variant: reasoning  -- instruction-tuned + trained to emit a chain of
+  #                          thought before answering
+  #
+  # WHY THESE ARE NOT OPTIONAL EXTRAS:
+  #
+  # 1. RQ5 ("do explicit fairness instructions raise representation only for
+  #    scholars the model already knows?") CANNOT be tested on a base model.
+  #    Base models do not follow stated instructions -- measured directly in
+  #    RESEARCH_LOG.md section 7.3b: on Pythia, a more emphatic instruction
+  #    left digit_mass at 0.20, while two worked examples raised it to 0.64.
+  #    Before this addition RQ5 rested on phi alone, the one model flagged as
+  #    a confound and excluded from cross-model claims.
+  #
+  # 2. Justice in Judgment's central result is that ALIGNMENT MASKS BIAS
+  #    (Ministral 8B: 4.3% skew in the stated answer, 68.6% in the underlying
+  #    distribution). Base-vs-instruct on identical pretraining is the direct
+  #    test of that claim, and none of the three reviewed papers runs it.
+  #
+  # NOTE ON THE R1 DISTILLS: models.yaml's recognition section warns that
+  # DeepSeek-R1-Distill-* are "not DeepSeek architecture -- they are Qwen and
+  # Llama bases fine-tuned on R1 outputs, so using one would duplicate a
+  # family already in the roster." That warning was about using one as the
+  # DEEPSEEK family representative, which it cannot be. Here the duplication
+  # is the entire point: R1-Distill-Qwen-7B against Qwen2.5-7B-Instruct holds
+  # the base family fixed and varies only reasoning training.
+
+  olmo_instruct:
+    hf_id: allenai/OLMo-2-1124-7B-Instruct
+    dev_id: null
+    params_b: 7.3
+    vram_fp16_gb: 17
+    gated: false
+    base_model: false
+    variant: instruct
+    pairs_with: olmo
+    tokenizer_family: olmo
+    corpus: dolma
+    notes: >
+      Highest-value single addition: the only model that is BOTH
+      corpus-transparent and available as a base/instruct pair, so RQ7
+      (training-data frequency) and RQ5 (alignment) can be tested on one
+      lineage. Run this before the other pairs.
+
+  qwen_instruct:
+    hf_id: Qwen/Qwen2.5-7B-Instruct
+    dev_id: Qwen/Qwen2.5-0.5B-Instruct
+    params_b: 7.6
+    vram_fp16_gb: 17.5
+    gated: false
+    base_model: false
+    variant: instruct
+    pairs_with: qwen
+    tokenizer_family: qwen
+    corpus: null
+
+  llama_instruct:
+    hf_id: meta-llama/Llama-3.1-8B-Instruct
+    dev_id: null
+    params_b: 8.03
+    vram_fp16_gb: 18.5
+    gated: true
+    base_model: false
+    variant: instruct
+    pairs_with: llama
+    tokenizer_family: llama
+    corpus: null
+
+  qwen_reasoning:
+    hf_id: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+    dev_id: null
+    params_b: 7.6
+    vram_fp16_gb: 17.5
+    gated: false
+    base_model: false
+    variant: reasoning
+    pairs_with: qwen_instruct
+    tokenizer_family: qwen
+    corpus: null
+    notes: >
+      Reasoning counterpart of qwen_instruct -- same Qwen2.5-7B base, further
+      trained on R1 chain-of-thought traces. CANNOT be scored by the standard
+      single-forward-pass probe: that reads the distribution of the token
+      immediately after "Score:", but a reasoning model emits reasoning there,
+      not an answer. Requires the generate-then-locate-the-digit scorer; see
+      probes/rating.py.
+
+  llama_reasoning:
+    hf_id: deepseek-ai/DeepSeek-R1-Distill-Llama-8B
+    dev_id: null
+    params_b: 8.03
+    vram_fp16_gb: 18.5
+    gated: false
+    base_model: false
+    variant: reasoning
+    pairs_with: llama_instruct
+    tokenizer_family: llama
+    corpus: null
+    notes: >
+      Reasoning counterpart of llama_instruct. Same scoring constraint as
+      qwen_reasoning.
+
+# --------------------------------------------------------- recognition arm --
+
+# Generation-only. No log-probs needed, so hosted APIs are fine here and this
+# is where the supervisor's OpenAI/Gemini credits get spent.
+
+recognition:
+  deepseek_v3:
+    api: openrouter
+    model_id: deepseek/deepseek-chat
+    notes: >
+      DeepSeek-V3 is 671B total parameters (MoE, ~37B active per token -- but
+      ALL 671B must be resident, since the router can select any expert at any
+      token). Roughly 1.3 TB in fp16. Cannot run on any Colab tier, so it is
+      recognition-only.
+      Deliberately NOT swapped for a runnable DeepSeek checkpoint:
+      deepseek-llm-7b-base is a 2023 model trained on 2T tokens, while the rest
+      of the roster is 2024+ at 10-15T. Substituting it would confound model
+      FAMILY with model VINTAGE. Note also that DeepSeek-R1-Distill-* are NOT
+      DeepSeek architecture -- they are Qwen and Llama bases fine-tuned on R1
+      outputs, so using one would duplicate a family already in the roster.
+      Consequence: the deepseek_tokens column in token_counts.parquet is
+      currently unused (recognition probes are rubric-scored, not per-token).
+
+  gpt:
+    api: openai
+    model_id: gpt-5.4
+    notes: Supervisor has the most API headroom here.
+
+  gemini:
+    api: google
+    model_id: gemini-3-pro
+    notes: Supervisor has the most API headroom here.
+
+# ------------------------------------------------------------------ probes --
+
+probes:
+  completion_probability:
+    arm: availability
+    requires: teacher_forced_logprobs
+  cued_recall:
+    arm: availability
+    requires: teacher_forced_logprobs
+  placebo:
+    arm: availability
+    requires: teacher_forced_logprobs
+    notes: >
+      Control probe. Must show no demographic gap; a gap here means the
+      instrument is measuring something other than scholarly availability.
+  recognition:
+    arm: both
+    requires: generation
+    notes: >
+      Three-component rubric (field / institution / principal contribution)
+      with NEGATIVE scoring for fabrication -- a fluent invented biography
+      must not count as knowledge.
+
+# ------------------------------------------------------------------ output --
+
+scoring:
+  # All three are retained per probe, per the method section: the per-token
+  # mean is the headline measure, the sum is the robustness check, and the
+  # token count is the covariate that controls for name fragmentation.
+  return_sum: true
+  return_mean_per_token: true
+  return_n_tokens: true
+  # Phase 3 of the method requires per-token detail, not just aggregates.
+  retain_raw_token_logprobs: true
+
+  # BPE splits a word differently depending on whether whitespace precedes it,
+  # so prompt and continuation MUST be tokenised as one string. Tokenising the
+  # halves separately and concatenating ids silently corrupts every score.
+  tokenise_jointly: true

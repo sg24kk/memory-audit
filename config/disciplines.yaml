@@ -1,0 +1,68 @@
+# Six disciplines -> OpenAlex taxonomy.
+#
+# Verified against the live API on 2026-08-05:
+#   * The /authors endpoint has NO field-level filter. Valid discipline filters
+#     are `topics.id` and `topic_share.id` only. `x_concepts.id` still parses
+#     but returns 0 results, so the legacy concept taxonomy is dead.
+#   * `topics.id` accepts at most 100 OR-values per request, so fields with more
+#     than 100 topics (computer science has 302) must be harvested in chunks and
+#     de-duplicated on author id.
+#
+# Five disciplines map to an OpenAlex *field*. Sociology does not: OpenAlex has
+# no sociology field, only the subfield "Sociology and Political Science" (3312)
+# inside Social Sciences (33). It is therefore selected at subfield level, and
+# the political-science contamination that implies is a known limitation to
+# state in the paper rather than hide.
+
+sampling:
+  # Eligibility floor. Below this an author has too thin a record to match on,
+  # and OpenAlex disambiguation gets noticeably worse.
+  min_works: 20
+  min_h_index: 5
+  require_institution: true          # needed for the S1.5 prestige covariate
+  target_per_discipline: 3000
+
+  # Achievement strata. Sampling the top-N by citation count would compress the
+  # achievement range and leave nothing to match across, so the sample is drawn
+  # evenly from h-index bands instead. Bands are inclusive ranges as OpenAlex
+  # expects them (`summary_stats.h_index:5-9`).
+  h_index_bands:
+    - "5-9"
+    - "10-19"
+    - "20-34"
+    - "35-59"
+    - ">59"
+
+disciplines:
+  physics:
+    label: "Physics and Astronomy"
+    selector: {type: field, id: 31}
+    n_topics: 104
+
+  biology:
+    label: "Biochemistry, Genetics and Molecular Biology"
+    selector: {type: field, id: 13}
+    n_topics: 248
+    # Note: OpenAlex splits life sciences across several fields. Field 13 is the
+    # molecular-biology core; field 11 (Agricultural and Biological Sciences)
+    # holds organismal biology. Using 13 alone keeps the discipline coherent.
+
+  computer_science:
+    label: "Computer Science"
+    selector: {type: field, id: 17}
+    n_topics: 302
+
+  mathematics:
+    label: "Mathematics"
+    selector: {type: field, id: 26}
+    n_topics: 82
+
+  psychology:
+    label: "Psychology"
+    selector: {type: field, id: 32}
+    n_topics: 144
+
+  sociology:
+    label: "Sociology and Political Science"
+    selector: {type: subfield, id: 3312}
+    n_topics: 224   # verified live 2026-08-11; 3 chunks
