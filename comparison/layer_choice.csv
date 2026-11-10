@@ -1,0 +1,7 @@
+model,layer,rho_within_disc,gate2
+qwen_instruct,20,0.9552786518901771,pass
+olmo_instruct,14,0.9086949814658043,marginal
+llama_instruct,7,0.8935940576820495,fail
+phi,16,0.9177048554167683,fail
+qwen_reasoning,9,0.8946242298912562,fail
+llama_reasoning,8,0.881196022597058,fail

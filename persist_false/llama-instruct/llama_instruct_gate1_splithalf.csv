@@ -1,0 +1,7 @@
+discipline,min_cos,median_cos,argmin_layer,pass
+biology,0.9852543,0.99776053,3,True
+computer_science,0.99514544,0.9985485,6,True
+mathematics,0.9927629,0.9981892,3,True
+physics,0.9958174,0.99790007,6,True
+psychology,0.9860182,0.9986387,3,True
+sociology,0.98742026,0.99887574,1,True

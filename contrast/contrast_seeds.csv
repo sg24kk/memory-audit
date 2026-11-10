@@ -1,0 +1,301 @@
+resolved_name,career_age,works_count,cited_by_count,h_index,current_inst,prize_name,discipline,id,composite,side
+Frank B. Hu,32.0,1870,278755,246,Brigham and Women's Hospital/Harvard University,,biology,https://openalex.org/A5056459536,0.9993055555555556,high
+Naveed Sattar,31.0,2146,210027,207,Brigham and Women's Hospital/Harvard University/University of Glasgow,,biology,https://openalex.org/A5078498803,0.9965277777777778,high
+Marco A. Marra,33.0,1314,243449,191,University of British Columbia/Spinal Cord Injury BC/Canada's Michael Smith Genome Sciences Centre,,biology,https://openalex.org/A5070061359,0.9916666666666667,high
+Aviv Regev,31.0,972,233729,210,Broad Institute/Harvard University/Kaiser Permanente South San Francisco Medical Center/Klarman Cell Observatory/Massachusetts Institute of Technology,,biology,https://openalex.org/A5004067604,0.9902777777777777,high
+Georgina V. Long,33.0,1821,171148,169,The University of Sydney/Mater Health Services/Charles Sturt University/Royal North Shore Hospital/Melanoma Institute Australia/Mater Private Hospital,,biology,https://openalex.org/A5070576000,0.9854166666666666,high
+Ramnik J. Xavier,32.0,991,190994,188,Broad Institute/Harvard University/Massachusetts General Hospital/Center for Systems Biology/Research Network (United States)/Klarman Cell Observatory/Massachusetts Institute of Technology,,biology,https://openalex.org/A5056408708,0.9847222222222222,high
+Daniel H. Geschwind,34.0,970,154272,189,"University of California, Los Angeles/UCLA Health/Olive View-UCLA Medical Center",,biology,https://openalex.org/A5018481303,0.9784722222222223,high
+Laurence Zitvogel,33.0,1173,156373,168,Inserm/Université Paris-Saclay/Institut Gustave Roussy/Délégation Ile-de-France Villejuif/La Ligue Contre le Cancer/Immunité et Cancer/Laboratoire d'études sur les monothéismes/Bicêtre Hospital,,biology,https://openalex.org/A5074612242,0.9777777777777779,high
+Alisdair R. Fernie,31.0,1748,119349,173,Center of Plant Systems Biology and Biotechnology/Max Planck Institute of Molecular Plant Physiology,,biology,https://openalex.org/A5082852942,0.9763888888888889,high
+Christian Gieger,31.0,931,151843,178,Helmholtz Munich,,biology,https://openalex.org/A5085407328,0.975,high
+Manel Esteller,32.0,1616,124231,166,Institució Catalana de Recerca i Estudis Avançats/Hospital de Sant Pau/IrsiCaixa/Josep Carreras Leukaemia Research Institute/Department of Physiological Sciences/Biomedical Research Institute/Centro de Investigación Biomédica en Red de Cáncer/Institut de Recerca Sant Pau/Universitat de Barcelona/Epigenomics (Germany),,biology,https://openalex.org/A5010137759,0.975,high
+Paul Flicek,33.0,525,205726,165,European Bioinformatics Institute/University of Connecticut,,biology,https://openalex.org/A5006816272,0.9743055555555555,high
+Unnur Þorsteinsdóttir,31.0,602,146450,179,deCODE Genetics (Iceland)/University of Iceland/Mahindra and Mahindra Limited (India),,biology,https://openalex.org/A5048586856,0.9715277777777778,high
+Ewan Birney,34.0,503,205069,143,European Bioinformatics Institute/Bioinformatics Institute,,biology,https://openalex.org/A5061379058,0.9670138888888888,high
+Georg Schett,32.0,1701,100860,155,Karolinska University Hospital/Friedrich-Alexander-Universität Erlangen-Nürnberg/Agostino Gemelli University Polyclinic/Universitätsklinikum Erlangen,,biology,https://openalex.org/A5075261558,0.9659722222222222,high
+Andrew Rambaut,31.0,523,155905,151,Ecologie & Evolution/Institut de Biologia Evolutiva/University of Edinburgh,,biology,https://openalex.org/A5083534383,0.9645833333333332,high
+Noah Fierer,26.0,495,173374,143,Cooperative Institute for Research in Environmental Sciences/University of Colorado Boulder/University of Colorado System,,biology,https://openalex.org/A5090803123,0.9635416666666666,high
+Jorge S. Reis‐Filho,30.0,1532,98925,156,Memorial Sloan Kettering Cancer Center/AstraZeneca (France)/AstraZeneca (Canada),,biology,https://openalex.org/A5077235697,0.9631944444444445,high
+Paul D.P. Pharoah,34.0,1742,98766,150,Cedars-Sinai Medical Center,,biology,https://openalex.org/A5088178921,0.9625,high
+Steven A. McCarroll,28.0,403,201709,129,Broad Institute/Howard Hughes Medical Institute/Harvard University,,biology,https://openalex.org/A5072347906,0.9576388888888889,high
+Е. V. Shlyakhto,26.0,735,165404,64,Federal Almazov North-West Medical Research Centre/Ministry of Health of the Russian Federation,,biology,https://openalex.org/A5009929615,0.9562499999999999,high
+Daolin Tang,27.0,543,109785,137,Southwestern Medical Center/UPMC Hillman Cancer Center/Southwestern Medical Center/The University of Texas Southwestern Medical Center,,biology,https://openalex.org/A5055468442,0.9555555555555556,high
+Trey Ideker,31.0,649,124229,108,Open Data Institute/University of California San Diego/University of Oxford/La Jolla Bioengineering Institute/Moores Cancer Center,,biology,https://openalex.org/A5089373684,0.9548611111111112,high
+Peter Holmans,33.0,627,102482,125,Genomics (United Kingdom)/Cardiff University/Medical Research Council,,biology,https://openalex.org/A5028228908,0.9527777777777778,high
+Eicke Latz,27.0,511,105129,130,University of Bonn/University Hospital Bonn/Humboldt-Universität zu Berlin/German Rheumatism Research Centre,,biology,https://openalex.org/A5009349672,0.9506944444444444,high
+Roberto Rozenberg,27.0,20,2352,8,Universidade de Brasília/Universidade de São Paulo,,biology,https://openalex.org/A5061861069,0.028124999999999997,low
+Annabel Wang,34.0,20,3956,8,City of Hope,,biology,https://openalex.org/A5038410895,0.035069444444444445,low
+Pratik Singh,33.0,24,1407,7,Chandigarh University/Central Forensic Science Laboratory,,biology,https://openalex.org/A5101459606,0.03854166666666667,low
+Zhenyong Tang,33.0,22,1891,8,Jilin University/The People's Hospital of Guangxi Zhuang Autonomous Region/Jilin Medical University,,biology,https://openalex.org/A5101835461,0.04097222222222222,low
+Jennifer Schumacher,34.0,20,3131,9,Pfizer (United States),,biology,https://openalex.org/A5074491607,0.04479166666666667,low
+Swathi Ayloo,28.0,22,1497,9,AVEO Oncology (United States)/Sanofi (United States)/Center for Genomic Science,,biology,https://openalex.org/A5077913344,0.051388888888888894,low
+Jessie Xiong,31.0,20,4325,9,University of Colorado Anschutz Medical Campus,,biology,https://openalex.org/A5112087619,0.0517361111111111,low
+Rizwan Shaikh,27.0,22,1510,9,Texas A&M University – Corpus Christi,,biology,https://openalex.org/A5041513588,0.052083333333333336,low
+Mark Mansour,27.0,25,1330,8,Al-Azhar University/Al-Azhar University/Misr International University,,biology,https://openalex.org/A5078372125,0.053125,low
+Yasushige Kashima,29.0,22,2260,9,Tochigi Medical Center,,biology,https://openalex.org/A5051333576,0.057638888888888885,low
+Zhenling Liu,26.0,23,1687,9,St. Jude Children's Research Hospital,,biology,https://openalex.org/A5103646989,0.060069444444444446,low
+Bin Yang,28.0,23,1930,9,Tianjin Third Central Hospital/Tianjin Medical University,,biology,https://openalex.org/A5101944448,0.06284722222222222,low
+Monika Dohse,26.0,22,3601,9,Kaiser Permanente South San Francisco Medical Center,,biology,https://openalex.org/A5056097513,0.06319444444444444,low
+Berthold Rutz,28.0,24,5017,8,European Patent Organisation,,biology,https://openalex.org/A5035966561,0.06840277777777777,low
+James Blackshaw,26.0,22,8033,6,European Bioinformatics Institute,,biology,https://openalex.org/A5000785776,0.07083333333333335,low
+Olga B Ryabova,26.0,26,1415,9,Russian Academy of Sciences,,biology,https://openalex.org/A5108486541,0.07326388888888889,low
+Ursula Kammlott,30.0,22,5192,9,The King's College/La Roche College,,biology,https://openalex.org/A5090189837,0.07361111111111111,low
+Samantha R. Friedrich,27.0,29,3530,7,Oregon Health & Science University,,biology,https://openalex.org/A5087988964,0.07430555555555556,low
+Maria T. Hechavarria Fonseca,29.0,26,1676,9,Federal Center for Technological Education of Minas Gerais,,biology,https://openalex.org/A5110871930,0.07604166666666666,low
+Hong Liao,27.0,22,8815,6,University of Dundee/Leshan Normal University,,biology,https://openalex.org/A5101452253,0.0763888888888889,low
+Bethan Powell,28.0,27,3865,8,Blackpool Teaching Hospitals NHS Foundation Trust/UCSF Helen Diller Family Comprehensive Cancer Center,,biology,https://openalex.org/A5112551343,0.07777777777777778,low
+Alexander Sturn,26.0,22,7264,8,Graz University of Technology,,biology,https://openalex.org/A5033788352,0.07916666666666666,low
+Ryan Nelson,29.0,25,6197,7,Newcastle University,,biology,https://openalex.org/A5102822418,0.08090277777777778,low
+Hongbing Zhang,29.0,21,7268,9,University of Kansas Medical Center,,biology,https://openalex.org/A5100656979,0.08611111111111112,low
+Carolyn Straehle,27.0,21,7396,9,Breast International Group,,biology,https://openalex.org/A5024794688,0.08680555555555557,low
+Jinde Cao,28.0,2582,102331,147,Yonsei University/Southeast University/Purple Mountain Laboratories/Southeast University,,computer_science,https://openalex.org/A5017808266,0.99375,high
+Peng Shi,30.0,1952,87939,156,Shandong University of Technology/Southwest Petroleum University/University of South Australia/Harbin Institute of Technology/UCL Australia/Southwest Medical University/State Key Laboratory of Pollution Control and Resource Reuse/Lanzhou University Second Hospital/Huanghuai University/First Affiliated Hospital of Bengbu Medical College/Chemical Synthesis Lab/Zhejiang University of Technology/The University of Adelaide/Vertex Pharmaceuticals (United States)/Lanzhou University/Beihang University/South China University of Technology/University of Science and Technology Beijing,,computer_science,https://openalex.org/A5100739668,0.9881944444444445,high
+Rui Zhang,28.0,1434,110784,150,"National University of Singapore/Institute of Computing Technology/Chinese University of Hong Kong, Shenzhen/Northwest A&F University",,computer_science,https://openalex.org/A5100422102,0.9868055555555556,high
+Rajkumar Buyya,29.0,1507,110783,142,"The University of Melbourne/Anna University, Chennai/University of Hyderabad/Beijing Academy of Artificial Intelligence/IBM Research - Australia/Cloud Computing Center/University of Tartu",,computer_science,https://openalex.org/A5014716105,0.9854166666666667,high
+Dinggang Shen,32.0,2143,86701,145,ShanghaiTech University/United Imaging Healthcare (China)/Shanghai Clinical Research Center,,computer_science,https://openalex.org/A5000937401,0.9847222222222222,high
+Zidong Wang,32.0,1709,85290,152,University of London/Beijing Institute of Technology/Energy Research Institute/Universidad de Londres/Brunel University of London/Shandong University of Science and Technology/Northeast Petroleum University,,computer_science,https://openalex.org/A5100699858,0.9833333333333334,high
+Daniel Rueckert,32.0,1554,95685,133,University Medical Center Utrecht/Munich Center for Machine Learning/Imperial College London/Technical University of Munich,,computer_science,https://openalex.org/A5006461848,0.9805555555555555,high
+Yi Yang,33.0,1268,83475,139,Zhejiang University,,computer_science,https://openalex.org/A5005421447,0.9715277777777779,high
+Wei Liu,34.0,1564,87663,112,Leiden University/Rensselaer Polytechnic Institute/Chinese Academy of Medical Sciences & Peking Union Medical College/Xi'an Polytechnic University/Air Force Engineering University/Huazhong University of Science and Technology/Chongqing University of Technology,,computer_science,https://openalex.org/A5100431792,0.9666666666666667,high
+Sébastien Ourselin,28.0,1786,69905,119,King's College London/Society of Interventional Radiology/Laboratoire d’Imagerie Biomédicale/Chancellor University,,computer_science,https://openalex.org/A5082106258,0.9645833333333335,high
+Liangpei Zhang,28.0,1106,65679,132,Wuhan University/Henan Academy of Sciences/Wuhan Business University/State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing/Aerospace Information Research Institute,,computer_science,https://openalex.org/A5100673818,0.9579861111111111,high
+Alán Aspuru‐Guzik,26.0,996,77882,119,Canadian Institute for Advanced Research/Nvidia (United Kingdom)/University of Toronto/Canada Research Chairs/Vector Institute/Nvidia (United States),,computer_science,https://openalex.org/A5071495561,0.9569444444444445,high
+Christos Davatzikos,34.0,1238,66650,122,Intel (United States)/University of East London/Hospital of the University of Pennsylvania/California University of Pennsylvania/Artificial Intelligence in Medicine (Canada)/University of Pennsylvania,,computer_science,https://openalex.org/A5034999945,0.9569444444444444,high
+Jian-Wei Pan,31.0,874,71096,129,University of Science and Technology of China/Hefei University of Technology/Hefei National Center for Physical Sciences at Nanoscale/Quantum Design (Germany)/Quantum Technologies (Sweden),,computer_science,https://openalex.org/A5042449260,0.9479166666666666,high
+Chunhua Shen,29.0,854,73700,127,Zhejiang University of Science and Technology/Zhejiang University of Technology,,computer_science,https://openalex.org/A5006294869,0.9479166666666666,high
+Enrique Herrera‐Viedma,31.0,988,62073,120,Universidad de Granada,,computer_science,https://openalex.org/A5076657750,0.9402777777777778,high
+Shuzhi Sam Ge,34.0,1370,61209,114,Qingdao University/Qingdao University of Science and Technology/National University of Singapore,,computer_science,https://openalex.org/A5008501506,0.9399305555555556,high
+Luca Benini,32.0,2293,58811,108,ETH Zurich/Institute for Biomedical Engineering/Laboratori Guglielmo Marconi (Italy)/Richard Wolf (Germany)/University of Bologna,,computer_science,https://openalex.org/A5043408422,0.9388888888888888,high
+Fei Richard Yu,27.0,1590,56066,117,"Chongqing University of Posts and Telecommunications/Qingdao University/University of North Carolina at Chapel Hill/Tongji University/Xuzhou University of Technology/University of Science and Technology of China/Shanghai Medical College of Fudan University/Kunming Institute of Botany/Guangdong University of Technology/Qingdao University of Science and Technology/University of California, Los Angeles/Northwestern Polytechnical University/Shenzhen University/Wuhan University of Technology/Anhui Medical University/Chinese Academy of Sciences/Peking University/Sichuan University/Dalian University of Technology/Suzhou University of Science and Technology/Wuhan University/Suzhou Institute of Biomedical Engineering and Technology/Shanghai Genon Biological Products (China)/Doheny Eye Institute/Beijing Academy of Artificial Intelligence/Institute of Oceanology/Qingdao National Laboratory for Marine Science and Technology/Second Hospital of Tianjin Medical University/Peking University International Hospital/Anhui Institute of Optics and Fine Mechanics/First Affiliated Hospital of Henan University of Science and Technology/Shanghai Institute of Optics and Fine Mechanics/First Affiliated Hospital of Anhui Medical University/Peng Cheng Laboratory/University of Chinese Academy of Sciences/First Affiliated Hospital Zhejiang University/State Key Laboratory of Oral Diseases/Huazhong University of Science and Technology/Chengdu University of Traditional Chinese Medicine/Tianjin Medical University/Carleton University/Shandong Agricultural University/Henan Normal University/University of Science and Technology Beijing/Nanjing University of Aeronautics and Astronautics",,computer_science,https://openalex.org/A5100420016,0.9375,high
+Atul J. Butte,34.0,773,71434,114,"University of California, San Francisco/Clinical Insights/UCSF Helen Diller Family Comprehensive Cancer Center/University of San Francisco",,computer_science,https://openalex.org/A5036068985,0.9350694444444444,high
+Ponnuthurai Nagaratnam Suganthan,32.0,746,69202,119,Sultan Qaboos University/Qatar University,,computer_science,https://openalex.org/A5025626208,0.9347222222222222,high
+Yaochu Jin,32.0,1017,58240,118,Westlake University,,computer_science,https://openalex.org/A5032314861,0.9326388888888889,high
+Bram van Ginneken,32.0,717,71582,108,Radboud University Nijmegen/University Medical Center/Radboud University Medical Center/Nijmegen Institute for Scientist Practitioners in Addiction/Fraunhofer Institute for Digital Medicine/Clinical Research Consortium,,computer_science,https://openalex.org/A5042982766,0.9249999999999999,high
+Ying‐Chang Liang,32.0,1020,54835,111,University of Electronic Science and Technology of China,,computer_science,https://openalex.org/A5007832415,0.9229166666666667,high
+Guochun Zhao,28.0,664,60540,132,Planetary Science Institute/Northwest University/Continental (United Kingdom)/University of Hong Kong,,computer_science,https://openalex.org/A5074346386,0.9204861111111112,high
+Ard Oerlemans,27.0,20,2658,6,Radboud University Nijmegen/Radboud University Medical Center,,computer_science,https://openalex.org/A5020076925,0.011111111111111112,low
+Claude Ambroise,26.0,20,4460,6,Pfizer (United States),,computer_science,https://openalex.org/A5059567111,0.024305555555555556,low
+Thomas Koller,33.0,24,2034,8,University Hospital of Basel/Lucerne University of Applied Sciences and Arts,,computer_science,https://openalex.org/A5012758194,0.02534722222222222,low
+Gavin Holland,32.0,21,3035,8,HRL Laboratories (United States),,computer_science,https://openalex.org/A5019363123,0.02708333333333333,low
+Han Chen,26.0,25,2938,8,Huawei Technologies (China),,computer_science,https://openalex.org/A5100732646,0.03472222222222222,low
+Yan Yan,26.0,25,3526,8,Guangdong University of Technology,,computer_science,https://openalex.org/A5100395054,0.03888888888888889,low
+Victor Hazlewood,29.0,28,3424,7,University of Tennessee at Knoxville,,computer_science,https://openalex.org/A5010288802,0.04027777777777778,low
+Lea Kissner,26.0,20,4091,9,Google (United States)/LinkedIn (United States),,computer_science,https://openalex.org/A5081689630,0.04305555555555556,low
+Guangming Lin,30.0,27,4218,7,Guangdong Baiyun University,,computer_science,https://openalex.org/A5100875973,0.043750000000000004,low
+Paul A. Hubanks,32.0,24,3288,9,Goddard Space Flight Center/Adnet Systems (United States),,computer_science,https://openalex.org/A5012757194,0.044097222222222225,low
+Yuan Lu,27.0,26,3070,9,Anhui Agricultural University,,computer_science,https://openalex.org/A5103685393,0.04895833333333333,low
+Marko Niinimäki,27.0,23,4815,9,HES-SO University of Applied Sciences and Arts Western Switzerland,,computer_science,https://openalex.org/A5102929202,0.051388888888888894,low
+Mark J. Huiskes,28.0,28,2726,9,Leiden University,,computer_science,https://openalex.org/A5108189921,0.052083333333333336,low
+Christian Hinkelbein,27.0,27,4978,8,University of London/University of Mannheim/University of Oxford,,computer_science,https://openalex.org/A5033753115,0.056249999999999994,low
+Dongsong Zhang,26.0,33,1523,9,University of North Carolina at Charlotte/Quzhou University,,computer_science,https://openalex.org/A5103074782,0.057986111111111106,low
+Aaron Bangor,28.0,20,8948,6,The University of Texas at Austin,,computer_science,https://openalex.org/A5045886084,0.05902777777777777,low
+Jürgen Guldner,32.0,25,4892,9,BMW (Germany),,computer_science,https://openalex.org/A5112198002,0.06041666666666667,low
+Anca-Maria Toader,29.0,28,3891,9,University of Lisbon,,computer_science,https://openalex.org/A5068227947,0.060416666666666674,low
+Gongde Guo,26.0,39,2244,8,Fujian Normal University,,computer_science,https://openalex.org/A5108363967,0.060763888888888895,low
+Kevin Ma,27.0,39,2795,8,"University of California, Berkeley",,computer_science,https://openalex.org/A5102440410,0.06354166666666666,low
+Dong-Fang Wu,29.0,35,2632,9,Duke Kunshan University,,computer_science,https://openalex.org/A5037580692,0.06493055555555556,low
+Curtis T. Keith,32.0,20,6511,9,Harvard University/Harvard University Press,,computer_science,https://openalex.org/A5079108081,0.06527777777777778,low
+Scott Lathrop,33.0,38,3643,8,Argonne National Laboratory/RTX (United States)/University of Illinois Urbana-Champaign/San Diego Supercomputer Center/Cornell University/Ohio Supercomputer Center/University of California San Diego/University of Chicago/Texas Advanced Computing Center,,computer_science,https://openalex.org/A5073101607,0.06736111111111111,low
+Jie Cao,26.0,24,8505,8,Beijing Institute of Technology/Harbin Institute of Technology/Science and Technology on Surface Physics and Chemistry Laboratory,,computer_science,https://openalex.org/A5103865758,0.07256944444444445,low
+Alison Hood,33.0,44,3773,7,"National University of Ireland, Maynooth",,computer_science,https://openalex.org/A5021544566,0.07604166666666666,low
+Dumitru Bǎleanu,32.0,2403,87997,125,Çankaya University/Institute of Space Science - INFLPR Subsidiary/Lebanese American University,,mathematics,https://openalex.org/A5030756029,0.9976190476190476,high
+GM Leung,33.0,1336,86394,111,Hong Kong Science and Technology Parks Corporation/Laboratory of Data Discovery for Health/University of Hong Kong,,mathematics,https://openalex.org/A5032186734,0.9916666666666667,high
+Hein Putter,31.0,1091,61884,106,Leiden University/Leiden University Medical Center,,mathematics,https://openalex.org/A5073613763,0.9803571428571428,high
+Eric‐Jan Wagenmakers,27.0,756,68345,113,University of Amsterdam,,mathematics,https://openalex.org/A5063079579,0.9785714285714286,high
+YangQuan Chen,30.0,1493,49325,98,"University of California, Merced/Embedded Systems (United States)",,mathematics,https://openalex.org/A5100715957,0.9744047619047619,high
+Oliver G. Pybus,27.0,619,79430,128,Royal Veterinary College/University of Oxford/Oxford BioMedica (United Kingdom),,mathematics,https://openalex.org/A5061658598,0.9702380952380952,high
+Ji‐Huan He,29.0,674,55671,106,Yango University/University of Edinburgh,,mathematics,https://openalex.org/A5010513600,0.9636904761904761,high
+Andrew J. Tatem,27.0,611,48543,109,University of Southampton,,mathematics,https://openalex.org/A5026395399,0.9511904761904763,high
+Xihong Lin,34.0,634,44275,95,Broad Institute/Harvard University/Harvard University Press/Cancer Research And Biostatistics,,mathematics,https://openalex.org/A5030660111,0.9416666666666668,high
+Cécile Viboud,26.0,512,46351,106,National Institutes of Health/National Health Research Institutes/Fogarty International Center,,mathematics,https://openalex.org/A5073384203,0.9315476190476191,high
+Jaffar A. Al‐Tawfiq,28.0,781,38062,80,Johns Hopkins University/Johns Hopkins Medicine/Saudi Aramco Medical Services Organization/Indiana University School of Medicine/Indiana University – Purdue University Indianapolis,,mathematics,https://openalex.org/A5042021657,0.9291666666666667,high
+Ralf Metzler,32.0,586,44039,91,University of Potsdam/Asia Pacific Center for Theoretical Physics,,mathematics,https://openalex.org/A5044662930,0.9273809523809523,high
+M. Maria Glymour,34.0,804,35353,82,Boston University,,mathematics,https://openalex.org/A5004781553,0.924404761904762,high
+Raphaël Porcher,29.0,779,31125,93,"Délégation Paris 5/Inserm/Université Paris Cité/Clinical Orthopaedics and Related Research/Hotel Dieu Hospital/Sorbonne Université/Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement/Université Sorbonne Paris Nord/Sorbonne Paris Cité/Assistance Publique – Hôpitaux de Paris/Hôtel-Dieu de Paris/Centre de Recherche Épidémiologie et Statistique",,mathematics,https://openalex.org/A5066493529,0.9226190476190476,high
+Cengiz Kahraman,28.0,751,30631,90,Istanbul Technical University,,mathematics,https://openalex.org/A5014135635,0.9130952380952381,high
+Saskia Mioduszewski,29.0,458,38388,106,Cyclotron (Netherlands),,mathematics,https://openalex.org/A5107991016,0.9113095238095238,high
+Christophe Fraser,34.0,433,45896,94,Open Data Institute/University of Oxford/Health Data Research UK/Jenner Institute,,mathematics,https://openalex.org/A5027792801,0.9071428571428571,high
+David B. Dunson,31.0,649,37231,76,Statistical and Applied Mathematical Sciences Institute/Duke University,,mathematics,https://openalex.org/A5108072328,0.9071428571428571,high
+Lü Tian,33.0,878,27167,85,Shandong University/Palo Alto University/Shanghai Jiao Tong University/Jilin University/Peking University/Sichuan University/Renji Hospital/West China Hospital of Sichuan University/Stanford Health Care/Shenzhen Institutes of Advanced Technology/East China Normal University/Stanford University,,mathematics,https://openalex.org/A5016639693,0.9017857142857143,high
+Aly R. Seadawy,26.0,648,25583,98,Taibah University,,mathematics,https://openalex.org/A5061661736,0.8922619047619048,high
+Enrique F. Schisterman,29.0,645,30464,79,National Institutes of Health/California University of Pennsylvania/Eunice Kennedy Shriver National Institute of Child Health and Human Development/University of Pennsylvania,,mathematics,https://openalex.org/A5009660168,0.8880952380952382,high
+Matthew R. Sydes,30.0,498,36687,80,MRC Clinical Trials Unit at UCL/The Wellington Hospital/Health Data Research UK/University College London/Medical Research Council,,mathematics,https://openalex.org/A5059261043,0.8875000000000001,high
+Hongzhe Li,29.0,507,37037,78,Hebei Medical University/Wenzhou Medical University/Affiliated Eye Hospital of Wenzhou Medical College/Xingtai People's Hospital/National Clinical Research/Institute for Medical Informatics and Biostatistics/University of Pennsylvania/Philadelphia University,,mathematics,https://openalex.org/A5082318113,0.8875000000000001,high
+Nicky J. Welton,29.0,600,29874,82,University of Bristol,,mathematics,https://openalex.org/A5052188317,0.8851190476190477,high
+Torsten Hothorn,28.0,412,60473,76,Vienna University of Economics and Business/University of Zurich/Biotechnology Institute Thurgau,,mathematics,https://openalex.org/A5062348958,0.8845238095238095,high
+Leon Arriola,29.0,22,1387,5,University of Wisconsin–Whitewater,,mathematics,https://openalex.org/A5015327827,0.029761904761904764,low
+Désirée Kroner,29.0,23,1425,6,Dalarna University/Luleå University of Technology,,mathematics,https://openalex.org/A5035392321,0.0375,low
+Gonzalo R. Feijóo,28.0,25,1910,5,Boston University,,mathematics,https://openalex.org/A5045894424,0.04821428571428571,low
+Weiren Wang,33.0,26,1275,8,Jilin University/Jilin Province Science and Technology Department,,mathematics,https://openalex.org/A5101715765,0.0488095238095238,low
+Zhe Zhou,30.0,29,1191,7,Chinese Academy of Sciences/Academy of Mathematics and Systems Science,,mathematics,https://openalex.org/A5112053402,0.0494047619047619,low
+Xihua Zhu,30.0,27,1244,8,Shanghai Business School/Heilongjiang Provincial Hospital,,mathematics,https://openalex.org/A5102130274,0.05416666666666667,low
+Martin Bayley,28.0,20,1368,9,Sheffield Teaching Hospitals NHS Foundation Trust,,mathematics,https://openalex.org/A5069630835,0.05654761904761904,low
+Iurie Caraus,29.0,23,3908,6,McGill University,,mathematics,https://openalex.org/A5004526962,0.057738095238095234,low
+Samantha Levy,34.0,27,1284,8,Johns Hopkins University Applied Physics Laboratory,,mathematics,https://openalex.org/A5056242542,0.061309523809523814,low
+Linda Eroh,33.0,31,1161,8,University of Wisconsin–Oshkosh,,mathematics,https://openalex.org/A5029055326,0.061309523809523814,low
+Yuchen Guo,28.0,26,1560,8,Nuffield Orthopaedic Centre,,mathematics,https://openalex.org/A5028831655,0.06249999999999999,low
+Lynda Ginsburg,34.0,27,1237,9,Rutgers Sexual and Reproductive Health and Rights,,mathematics,https://openalex.org/A5031405545,0.07023809523809524,low
+José Ángel Córdova-Villalobos,29.0,27,1685,8,Academia Nacional de Medicina/Office of the Assistant Secretary for Health,,mathematics,https://openalex.org/A5032775639,0.07559523809523809,low
+Ellen Gundlach,29.0,33,1542,7,Purdue University West Lafayette/Biological E (India),,mathematics,https://openalex.org/A5000225513,0.07619047619047618,low
+Barbara Kawulich,26.0,26,1771,9,University of West Georgia/Auburn University,,mathematics,https://openalex.org/A5089250717,0.08571428571428573,low
+Ruidi Chen,29.0,37,1276,8,Liaoning Shihua University/Shantou University/Wuhan University,,mathematics,https://openalex.org/A5067887830,0.0863095238095238,low
+Rajeev Jayadevan,30.0,39,1245,8,Indian Medical Association,,mathematics,https://openalex.org/A5011657655,0.08988095238095238,low
+Seran Hakki,32.0,27,1564,9,Lung Institute/NIHR Imperial Biomedical Research Centre/Imperial College London,,mathematics,https://openalex.org/A5013311826,0.09047619047619049,low
+Zhao Zhen,27.0,50,1246,6,Beijing Normal University/State Forestry and Grassland Administration,,mathematics,https://openalex.org/A5101903170,0.09523809523809523,low
+Chi-Hsin Wu,33.0,36,1647,8,Shanghai University of Electric Power/China University of Mining and Technology/Shanghai Electric (China)/Luliang University,,mathematics,https://openalex.org/A5103376826,0.09523809523809523,low
+Xin Zhang,31.0,37,1222,9,Jilin University/Nanjing University of Science and Technology/Jilin Medical University/Beihang University,,mathematics,https://openalex.org/A5100327570,0.09523809523809523,low
+Ujjwal Das,30.0,26,3879,9,Indian Institute of Management Udaipur,,mathematics,https://openalex.org/A5078238468,0.09523809523809523,low
+Louise le Roux,29.0,20,4157,11,deCODE Genetics (Iceland),,mathematics,https://openalex.org/A5015220526,0.09761904761904762,low
+Stephen Pyke,33.0,20,4301,10,Pfizer (United Kingdom),,mathematics,https://openalex.org/A5108441297,0.10059523809523811,low
+Hervé Lebret,32.0,26,5773,7,Institut national de recherche en sciences et technologies du numérique/École Polytechnique Fédérale de Lausanne,,mathematics,https://openalex.org/A5022063645,0.10714285714285715,low
+A. J. Beddall,32.0,2660,210567,190,Istinye University,,physics,https://openalex.org/A5026132307,0.9984089101034209,high
+Andrei Gritsan,30.0,2670,173685,160,Johns Hopkins University,,physics,https://openalex.org/A5100718800,0.994431185361973,high
+Carlo Dallapiccola,34.0,2623,148406,162,University of Massachusetts Amherst,,physics,https://openalex.org/A5037436415,0.990453460620525,high
+Jose Ocariz,32.0,2532,143250,163,Centre National de la Recherche Scientifique/Université Paris Cité/Sorbonne Université/Sorbonne Paris Cité/Laboratoire de Physique Nucléaire et de Hautes Énergies/Institut National de Physique Nucléaire et de Physique des Particules/Laboratoire Médiations,,physics,https://openalex.org/A5106974091,0.9872712808273668,high
+Stefano Giagu,34.0,2550,145555,160,"Istituto Nazionale di Fisica Nucleare/Istituto Nazionale di Fisica Nucleare, Sezione di Roma I/Sapienza University of Rome",,physics,https://openalex.org/A5040188499,0.9864757358790771,high
+Luca Lista,34.0,2642,138661,154,"Istituto Nazionale di Fisica Nucleare, Sezione di Napoli/Scuola Superiore Meridionale/University of Naples Federico II",,physics,https://openalex.org/A5114377868,0.9733492442322991,high
+M. Gallinaro,34.0,2460,138032,154,LIP - Laboratory of Instrumentation and Experimental Particle Physics,,physics,https://openalex.org/A5106382331,0.9693715194908513,high
+J. Beringer,32.0,2098,173941,160,Lawrence Berkeley National Laboratory/Université Paris Cité,,physics,https://openalex.org/A5072937674,0.9657915672235481,high
+Gustaaf Brooijmans,31.0,2176,140970,157,Centre Hospitalier de l'Agglomération de Nevers/Columbia University,,physics,https://openalex.org/A5073780128,0.9610182975338106,high
+P. Azzi,34.0,2254,134031,156,"University of Cagliari/Istituto Nazionale di Fisica Nucleare, Sezione di Padova",,physics,https://openalex.org/A5091797706,0.960222752585521,high
+Koji Terashi,32.0,2097,150164,157,Tokyo University of Agriculture/Centre de physique des particules de Marseille/The University of Tokyo,,physics,https://openalex.org/A5056675059,0.956642800318218,high
+J. Chudoba,31.0,2208,131021,158,"Czech Academy of Sciences, Institute of Sociology/FZU ‒ Institute of Physics of the Academy of Sciences of the Czech Republic/Laboratoire de Physique des 2 Infinis Irène Joliot-Curie",,physics,https://openalex.org/A5100750246,0.9558472553699283,high
+David D'Enterria,31.0,2146,133114,159,Université de Haute-Alsace/Institut Pluridisciplinaire Hubert Curien/Max Planck Institute for Physics/Centre de Calcul de l’Institut National de Physique Nucléaire et de Physique des Particules/Institute of Nuclear Physics of Lyon/Laboratoire Leprince-Ringuet/Institut de Physique des 2 Infinis de Lyon/European Organization for Nuclear Research,,physics,https://openalex.org/A5100674196,0.9530628480509149,high
+Frank Geurts,30.0,2231,128951,156,University of Bonn/Rice University,,physics,https://openalex.org/A5107061204,0.9482895783611774,high
+Alison Lister,29.0,2208,131459,153,University of British Columbia/Laboratoire d’Annecy de Physique des Particules/Laboratoire de Physique Subatomique et de Cosmologie,,physics,https://openalex.org/A5107143223,0.9474940334128878,high
+Serkant Cetin,32.0,2668,128358,152,Laboratoire de Physique Nucléaire et de Hautes Énergies/Istinye University,,physics,https://openalex.org/A5108039384,0.9423229912490055,high
+Markus Cristinziani,28.0,2167,127989,157,University of Siegen/Centre de physique des particules de Marseille/Laboratoire de Physique Nucléaire et de Hautes Énergies,,physics,https://openalex.org/A5032186284,0.9407319013524265,high
+Anna Goussiou,34.0,2121,131401,153,University of Washington/University of Washington Applied Physics Laboratory,,physics,https://openalex.org/A5024996384,0.9367541766109785,high
+Peter Wittich,32.0,2326,129508,152,Fermi National Accelerator Laboratory/Cornell University,,physics,https://openalex.org/A5077849176,0.935958631662689,high
+Lydia Roos,34.0,2176,126970,153,Centre National de la Recherche Scientifique/Université Paris Cité/Sorbonne Université/Sorbonne Paris Cité/Laboratoire de Physique Nucléaire et de Hautes Énergies/Institut National de Physique Nucléaire et de Physique des Particules/Laboratoire Médiations,,physics,https://openalex.org/A5020737288,0.9315831344470963,high
+Vipin Bhatnagar,33.0,2441,133970,151,Panjab University,,physics,https://openalex.org/A5072449178,0.9291964996022276,high
+Rainer S. Wallny,29.0,2326,125814,152,ETH Zurich/Institute of Particle Physics/Stefan Meyer Institute for Subatomic Physics,,physics,https://openalex.org/A5053378123,0.9272076372315036,high
+Kohei Yorita,26.0,2224,127463,152,Waseda University,,physics,https://openalex.org/A5086524838,0.9240254574383453,high
+Kyle Cranmer,26.0,1936,130480,157,University of Wisconsin–Madison/Laboratoire d’Annecy de Physique des Particules/Laboratoire de Physique Nucléaire et de Hautes Énergies/Laboratoire de Physique Subatomique et de Cosmologie,,physics,https://openalex.org/A5108167175,0.9240254574383453,high
+S. Rahatlou,26.0,2257,125889,152,"Commissariat à l'Énergie Atomique et aux Énergies Alternatives/CEA Paris-Saclay/Istituto Nazionale di Fisica Nucleare, Sezione di Roma I/Institut de Recherche sur les Lois Fondamentales de l'Univers/Sapienza University of Rome",,physics,https://openalex.org/A5100753969,0.9240254574383453,high
+Eunwoo Lee,26.0,24,331,6,Gachon University,,physics,https://openalex.org/A5042885313,0.027844073190135238,low
+Martin Veselský,29.0,23,401,6,Czech Technical University in Prague,,physics,https://openalex.org/A5104388118,0.032219570405727926,low
+Flavio Tonetto,29.0,22,403,7,University Sinergija/Vitality Institute/Institut des Corps Gras,,physics,https://openalex.org/A5018858589,0.03381066030230708,low
+Yuji Umeda,31.0,22,627,7,Osaka Institute of Technology,,physics,https://openalex.org/A5075438459,0.043357199681782026,low
+Ali M’chirgui,26.0,23,335,8,Tunisia Polytechnic School,,physics,https://openalex.org/A5077479266,0.043357199681782026,low
+Matt Quinn,26.0,24,428,7,National Institute of Environmental Health Sciences,,physics,https://openalex.org/A5043298145,0.044948289578361174,low
+Etienne Boaknin,26.0,22,1271,7,University of Toronto,,physics,https://openalex.org/A5103909436,0.04733492442322992,low
+Arturo Gomez-Camacho,28.0,21,642,8,Instituto Nacional de Investigaciones Nucleares,,physics,https://openalex.org/A5064803873,0.049721559268098646,low
+Seong‐Ju Hwang,32.0,22,550,8,Yonsei University,,physics,https://openalex.org/A5103594051,0.05210819411296738,low
+Jingxin Li,34.0,26,357,8,Nanjing University of Science and Technology,,physics,https://openalex.org/A5077956615,0.06364359586316627,low
+Vincenzo Cavaliere,29.0,27,336,8,"Centre National de la Recherche Scientifique/Laboratoire Photonique, Numérique et Nanosciences",,physics,https://openalex.org/A5067940963,0.06364359586316627,low
+Bing Jin,31.0,23,336,9,Tianjin University,,physics,https://openalex.org/A5067732227,0.0664280031821798,low
+Huang Xiaolong,33.0,34,395,6,Sichuan University,,physics,https://openalex.org/A5103929646,0.07000795544948289,low
+Igor Muntian,27.0,27,588,8,National Centre for Nuclear Research,,physics,https://openalex.org/A5028709277,0.07756563245823389,low
+Evgeny Buchstab,32.0,22,1050,9,Technion – Israel Institute of Technology,,physics,https://openalex.org/A5111848653,0.07915672235481305,low
+Masanori Daibo,30.0,27,340,9,Fujikura (Japan),,physics,https://openalex.org/A5103634608,0.08671439936356405,low
+Zsolt Dombrádi,29.0,32,470,8,Institute for Literary Studies,,physics,https://openalex.org/A5109814064,0.0879077167859984,low
+Nicholas C. Koshnick,26.0,24,1088,9,Stanford University,,physics,https://openalex.org/A5021063790,0.08949880668257755,low
+Eric Wertz,27.0,25,612,9,"Princeton University/University of Pennsylvania/University of California, Berkeley",,physics,https://openalex.org/A5060906546,0.09108989657915673,low
+Giuseppe Peluso,33.0,26,477,9,"Istituto Nazionale di Fisica Nucleare, Sezione di Napoli",,physics,https://openalex.org/A5110548172,0.09148766905330152,low
+C.J. Densham,27.0,20,4381,7,Rutherford Appleton Laboratory/Science and Technology Facilities Council,,physics,https://openalex.org/A5103481901,0.09307875894988067,low
+Katerina Michalickova,32.0,21,4249,8,NIHR Imperial Biomedical Research Centre/Imperial College London,,physics,https://openalex.org/A5069234877,0.10620525059665871,low
+Sergey Zemlyanoy,28.0,31,485,9,Joint Institute for Nuclear Research,,physics,https://openalex.org/A5062250077,0.1066030230708035,low
+Z.L. Du,33.0,32,418,9,Kunming University of Science and Technology/University of Houston/Northeastern University,,physics,https://openalex.org/A5110436310,0.10700079554494829,low
+Marcus Wilhelmsson,28.0,21,5806,5,Chalmers University of Technology,,physics,https://openalex.org/A5056517339,0.11217183770883055,low
+Henning Tiemeier,30.0,1277,88511,143,Centers for Disease Control and Prevention/Harvard University/National University of Singapore/Harvard University Press/Erasmus MC/The Centers/Erasmus University Rotterdam,,psychology,https://openalex.org/A5076290987,0.9925,high
+Peter T. Katzmarzyk,32.0,904,98286,132,Pennington Biomedical Research Center/Louisiana State University,,psychology,https://openalex.org/A5068517389,0.9916666666666667,high
+Ulf Ekelund,31.0,735,103990,128,Norwegian Institute of Public Health/Norwegian School of Sport Sciences,,psychology,https://openalex.org/A5064338533,0.9900000000000001,high
+Madhukar H. Trivedi,34.0,1057,79974,125,Edinburgh Royal Infirmary/Southwestern Medical Center/The University of Texas Southwestern Medical Center,,psychology,https://openalex.org/A5081426855,0.9858333333333333,high
+Gerome Breen,28.0,941,89195,117,King's College London/South London and Maudsley NHS Foundation Trust/National Institute for Health and Care Research/Maudsley Hospital,,psychology,https://openalex.org/A5007752410,0.985,high
+Tor D. Wager,29.0,617,94615,122,Lyon 1 Université/Dartmouth College/Centre National de la Recherche Scientifique/Inserm/University of Colorado Boulder/University of Colorado System/Centre de Recherche en Neurosciences de Lyon/Brain (Germany)/Dartmouth Hospital,,psychology,https://openalex.org/A5006154621,0.9804166666666667,high
+Andreas Meyer‐Lindenberg,34.0,901,67488,127,Heidelberg University/University Hospital Heidelberg/Central Institute of Mental Health/German Center for Infection Research/German Centre for Cardiovascular Research/German Center for Diabetes Research,,psychology,https://openalex.org/A5006015276,0.98,high
+Dianne Neumark‐Sztainer,34.0,808,67091,138,University of Minnesota/University of Minnesota System/Twin Cities Orthopedics/Minnesota Department of Health,,psychology,https://openalex.org/A5058803463,0.98,high
+Deanna M. Barch,33.0,881,78035,119,Washington University in St. Louis/Mallinckrodt (United States)/Hologic (Germany),,psychology,https://openalex.org/A5026517414,0.9791666666666666,high
+Lisa Feldman Barrett,30.0,554,73616,122,Northeastern University/Athinoula A. Martinos Center for Biomedical Imaging,APA Distinguished Scientific Contributions to Psychology,psychology,https://openalex.org/A5061385021,0.9695833333333334,high
+Paul I. Dargan,27.0,466,103330,80,King's College London/Guy's and St Thomas' NHS Foundation Trust/Thomas Foundation/Kings Health Partners/King's College School,,psychology,https://openalex.org/A5019447625,0.9587500000000001,high
+Maziar Moradi‐Lakeh,26.0,358,210236,89,Iran University of Medical Sciences,,psychology,https://openalex.org/A5056631987,0.9579166666666667,high
+Laura D. Kubzansky,31.0,620,36672,97,Harvard University/Johns Hopkins University/Cornell University/Harvard University Press/Johns Hopkins Berman Institute of Bioethics,,psychology,https://openalex.org/A5073422847,0.9525,high
+Kathleen D. Vohs,28.0,451,54011,96,University of Minnesota,,psychology,https://openalex.org/A5007916326,0.9516666666666667,high
+Marilyn A. Huestis,34.0,587,33177,92,Smithsonian Institution/Thomas Jefferson University/Smith Family,,psychology,https://openalex.org/A5000016116,0.9433333333333334,high
+Latha Palaniappan,26.0,416,67650,67,Stanford Medicine/Stanford University,,psychology,https://openalex.org/A5003032006,0.9329166666666667,high
+Shigehiro Oishi,28.0,334,49187,89,University of Chicago/University of Virginia,,psychology,https://openalex.org/A5011286698,0.9329166666666667,high
+Michael E. McCullough,34.0,329,47469,87,University of California San Diego,,psychology,https://openalex.org/A5060868512,0.9270833333333334,high
+Jean M. Twenge,29.0,274,51247,99,San Diego State University,,psychology,https://openalex.org/A5004960183,0.9225,high
+Hajo Zeeb,28.0,609,37308,59,Hochschule Bremen/University of Bremen/Leibniz Institute for Prevention Research and Epidemiology - BIPS,,psychology,https://openalex.org/A5041172548,0.9191666666666668,high
+Kent A. Kiehl,31.0,334,29463,90,Mind Research Network/University of New Mexico,,psychology,https://openalex.org/A5015647568,0.9116666666666666,high
+Toon W. Taris,33.0,385,29023,85,Utrecht University,,psychology,https://openalex.org/A5059853168,0.9108333333333333,high
+Katariina Salmela‐Aro,34.0,520,24446,88,University of Helsinki,,psychology,https://openalex.org/A5089014558,0.9066666666666667,high
+Sonja Lyubomirsky,33.0,259,50860,84,"University of California, Riverside",,psychology,https://openalex.org/A5056418657,0.9066666666666666,high
+Jonathan Haidt,33.0,232,66105,87,New York University,,psychology,https://openalex.org/A5013713764,0.9045833333333334,high
+Tomislav Bunjevac,29.0,21,736,6,University of Zagreb,,psychology,https://openalex.org/A5023194490,0.027083333333333334,low
+François Marticotte,31.0,20,1010,5,Université du Québec à Montréal,,psychology,https://openalex.org/A5089896868,0.0275,low
+Linda Powell,29.0,20,1274,6,Translational Research in Oncology/Community College of Philadelphia,,psychology,https://openalex.org/A5059580915,0.043333333333333335,low
+Lê Xuân Hy,30.0,22,1032,5,Seattle University,,psychology,https://openalex.org/A5048941070,0.04666666666666667,low
+Douglas L. Holton,30.0,25,760,6,Utah State University/Vanderbilt University,,psychology,https://openalex.org/A5112143863,0.051666666666666666,low
+Ginger L. Pennington,32.0,20,1053,8,Northwestern University,,psychology,https://openalex.org/A5019878434,0.05333333333333332,low
+Vincent J. Pascal,27.0,20,751,9,Eastern Washington University,,psychology,https://openalex.org/A5068203601,0.05583333333333334,low
+Janet Colvin,29.0,23,731,8,Utah Valley University,,psychology,https://openalex.org/A5055568081,0.056666666666666664,low
+Elaina M. Frieda,29.0,26,831,7,Auburn University,,psychology,https://openalex.org/A5047209641,0.06583333333333334,low
+Heidi L. Eyre,28.0,20,963,9,Utah State University,,psychology,https://openalex.org/A5110528285,0.06833333333333334,low
+Eva Thelen,31.0,24,842,8,University of Mississippi,,psychology,https://openalex.org/A5007896146,0.06874999999999999,low
+Marinella Damian,26.0,22,1061,8,Heidelberg University/University Hospital Heidelberg/Central Institute of Mental Health,,psychology,https://openalex.org/A5110126472,0.07083333333333332,low
+Kim Altman Weiss,29.0,20,2570,8,University of Münster,,psychology,https://openalex.org/A5021746333,0.07166666666666666,low
+Fangyuan Yuan,27.0,20,2839,5,United States Naval Academy,,psychology,https://openalex.org/A5057757144,0.0725,low
+Charlotte van Oyen Witvliet,30.0,22,1360,8,Hope College,,psychology,https://openalex.org/A5112413515,0.07916666666666666,low
+Thomas Groenewald,27.0,25,2479,6,University of South Africa,,psychology,https://openalex.org/A5006948495,0.08083333333333333,low
+Diana J. Pritchard,33.0,24,730,9,University of Bedfordshire,,psychology,https://openalex.org/A5015669210,0.08125,low
+Amy Boyers,28.0,22,2612,7,Manchester Academic Health Science Centre/University of Manchester,,psychology,https://openalex.org/A5021520723,0.08375,low
+Macalester Bell,28.0,28,768,8,Bryn Mawr College,,psychology,https://openalex.org/A5004308575,0.08416666666666667,low
+Mari C. Ortega,29.0,20,2448,9,University of Bath,,psychology,https://openalex.org/A5086297533,0.085,low
+Deborah E. Rosen,28.0,23,844,9,University of Rhode Island,,psychology,https://openalex.org/A5010579849,0.08625000000000001,low
+Stacy Birch,33.0,22,1144,9,SUNY Brockport,,psychology,https://openalex.org/A5014479609,0.09416666666666666,low
+Jochen Kleres,26.0,31,986,7,Institut für Hygiene und Umwelt,,psychology,https://openalex.org/A5081669885,0.09833333333333334,low
+Scott Bonham,27.0,30,904,8,Western Kentucky University,,psychology,https://openalex.org/A5053043506,0.10041666666666667,low
+Stephanie Bell,26.0,29,2531,6,Columbia University,,psychology,https://openalex.org/A5050894670,0.10333333333333333,low
+Esther Duflo,27.0,1399,64821,104,Moscow Institute of Thermal Technology/Massachusetts Institute of Technology,,sociology,https://openalex.org/A5015565298,0.993127147766323,high
+Steffanie A. Strathdee,34.0,964,49486,106,University of California System/University of California San Diego,,sociology,https://openalex.org/A5089836383,0.9853951890034365,high
+Caroline B. Terwee,30.0,584,76881,109,Amsterdam Neuroscience/Public Health Service of Amsterdam/Amsterdam University Medical Centers/Vrije Universiteit Amsterdam,,sociology,https://openalex.org/A5078544069,0.9845360824742269,high
+Guy Brusselle,33.0,937,43536,105,Ghent University Hospital/Erasmus MC/Erasmus University Rotterdam,,sociology,https://openalex.org/A5005167055,0.9793814432989691,high
+Jane Blazeby,32.0,872,50178,100,University Hospitals Bristol NHS Foundation Trust/University of Bristol/NIHR Bristol Biomedical Research Centre/University of Arizona Cancer Center/University Hospitals Bristol and Weston NHS Foundation Trust,,sociology,https://openalex.org/A5062851652,0.9793814432989691,high
+Kenneth M. Langa,33.0,644,43677,102,American Public Health Association/Johns Hopkins University/University of Michigan/VA Center for Clinical Management Research/Ann Arbor VA Medical Center/SoundRocket (United States)/Institute for Social Research,,sociology,https://openalex.org/A5068287338,0.9725085910652922,high
+Dimitrios Buhalis,33.0,594,53755,99,Bournemouth University,,sociology,https://openalex.org/A5068663980,0.9716494845360825,high
+Martin S. Hagger,34.0,760,41217,100,"Griffith University/University of California, Merced/University of California System/University of Jyväskylä",,sociology,https://openalex.org/A5057291202,0.9690721649484536,high
+Seena Fazel,34.0,528,44065,102,Oxford Health NHS Foundation Trust/University of Oxford,,sociology,https://openalex.org/A5032537089,0.9643470790378007,high
+Adam D. Galinsky,31.0,444,46465,111,Columbia University,,sociology,https://openalex.org/A5046875630,0.9621993127147768,high
+Fang Fang,33.0,1611,35251,91,"Union Hospital/University of California, Los Angeles/Yunnan University/Chifeng University/China-Japan Friendship Hospital/Karolinska Institutet/AbbVie (United States)/Second People's Hospital of Yunnan Province/Chifeng Municipal Hospital/Shanghai East Hospital/Huazhong University of Science and Technology/Old Dominion University/Stanford University",,sociology,https://openalex.org/A5100386859,0.9583333333333334,high
+Per Carlbring,26.0,628,33363,98,University of Seoul/Stockholm University/Korea University/Korea University,,sociology,https://openalex.org/A5082635131,0.9450171821305843,high
+Kennon M. Sheldon,33.0,344,50439,100,University of Missouri,,sociology,https://openalex.org/A5078294428,0.9441580756013744,high
+Jan De Houwer,34.0,655,32477,90,Ghent University Hospital/Ghent University,,sociology,https://openalex.org/A5072152949,0.9428694158075602,high
+James Druckman,30.0,644,39901,79,Northwestern University/Northwest University/University of Rochester,,sociology,https://openalex.org/A5063647785,0.9424398625429554,high
+Graeme D. Ruxton,34.0,646,34642,87,University of St Andrews,,sociology,https://openalex.org/A5049823510,0.9415807560137458,high
+Thomas Piketty,34.0,677,41521,66,École des hautes études en sciences sociales,,sociology,https://openalex.org/A5026928510,0.9402920962199314,high
+Jennifer S. Temel,26.0,630,36034,84,Harvard University/Massachusetts General Hospital/Global Cancer Institute/Mass General Brigham,,sociology,https://openalex.org/A5009871897,0.9402920962199314,high
+Michael D. Cabana,31.0,419,38096,91,Albert Einstein College of Medicine/Children's Hospital at Montefiore,,sociology,https://openalex.org/A5088060708,0.9368556701030927,high
+Michele J. Gelfand,34.0,420,42139,86,Palo Alto University/Stanford University,,sociology,https://openalex.org/A5070913945,0.9355670103092782,high
+David Daniel Ebert,33.0,516,32975,91,Online Technologies (United States)/Technical University of Munich,,sociology,https://openalex.org/A5091292039,0.934278350515464,high
+Samuel D. Gosling,30.0,328,59313,88,The University of Texas at Austin,,sociology,https://openalex.org/A5077287995,0.933848797250859,high
+Ulrich Trautwein,30.0,557,31897,90,Institute of Education Sciences/TH Bingen University of Applied Sciences/University of Tübingen,,sociology,https://openalex.org/A5086577266,0.9308419243986256,high
+Vito Latora,34.0,382,43167,83,"Istituto Nazionale di Fisica Nucleare, Sezione di Catania",,sociology,https://openalex.org/A5027706684,0.9243986254295532,high
+Ilan Kelman,28.0,589,39222,61,National Science and Technology Center for Disaster Reduction/Heidelberg University/University Hospital Heidelberg/University College London/UiT The Arctic University of Norway,,sociology,https://openalex.org/A5062139031,0.9235395189003436,high
+Jorge Galván Reyes,33.0,20,160,6,Instituto Nacional de Psiquiatría Ramón de la Fuente Muñiz,,sociology,https://openalex.org/A5047198150,0.028780068728522335,low
+Carlos Iván García Suárez,27.0,24,58,5,Universidad de Manizales,,sociology,https://openalex.org/A5074800974,0.028780068728522335,low
+Linda Sheridan,32.0,20,207,6,Peterborough City Council/Cambridgeshire County Council,,sociology,https://openalex.org/A5025525274,0.03221649484536082,low
+Rosa Elena Huerta Rosales,33.0,26,68,5,National University of San Marcos,,sociology,https://openalex.org/A5086537799,0.03350515463917526,low
+Gerardo Castillo,30.0,28,71,5,Pontificia Universidad Católica del Perú,,sociology,https://openalex.org/A5052049800,0.038230240549828175,low
+Jim Josefson,31.0,30,163,5,Bridgewater College,,sociology,https://openalex.org/A5074912098,0.04810996563573883,low
+Michelle Pfeifer,27.0,20,1375,7,Technische Universität Dresden,,sociology,https://openalex.org/A5006454676,0.05154639175257731,low
+Adriana García Andrade,27.0,36,93,5,Universidad Autónoma Metropolitana,,sociology,https://openalex.org/A5018610676,0.055412371134020616,low
+Ângela Maria Pires Caniato,29.0,37,70,5,Universidade Estadual de Maringá,,sociology,https://openalex.org/A5032395903,0.05713058419243986,low
+Ernest T. Stringer,30.0,21,1625,7,IP Australia,,sociology,https://openalex.org/A5043543289,0.057989690721649494,low
+Jill Hunter Williams,34.0,20,2443,6,Flinders University,,sociology,https://openalex.org/A5018186056,0.06142611683848797,low
+Lynn C. Wilder,32.0,22,2081,6,Office of the Director/National Center for Environmental Health,,sociology,https://openalex.org/A5043120438,0.06314432989690721,low
+Demosthenes Agrafiotis,33.0,22,2758,5,National School of Public Health,,sociology,https://openalex.org/A5059591658,0.06400343642611683,low
+Amparo Micolta León,30.0,33,151,6,Universidad del Valle,,sociology,https://openalex.org/A5051230772,0.06486254295532647,low
+Ben Dewald,27.0,21,372,9,Collins College/California State Polytechnic University,,sociology,https://openalex.org/A5053179179,0.06786941580756013,low
+Viviane Namaste,27.0,24,1499,7,Instituto de Liderazgo Simone de Beauvoir/Concordia University,,sociology,https://openalex.org/A5016200065,0.07130584192439864,low
+Paul Burgers,33.0,32,1196,6,Middelbaar Beroeps Onderwijs/Roche (Netherlands)/Combined Computer Services (Netherlands),,sociology,https://openalex.org/A5114012138,0.07388316151202749,low
+Lauren Gilbert,29.0,29,2234,5,"Rutgers, The State University of New Jersey/Kenyon College/Center for Effective Philanthropy/Rutgers Sexual and Reproductive Health and Rights",,sociology,https://openalex.org/A5102752765,0.07388316151202749,low
+John E. Transue,28.0,21,1652,9,University of Illinois at Springfield,,sociology,https://openalex.org/A5033793293,0.07989690721649485,low
+Victoria Browning,32.0,20,1995,9,Queensland University of Technology,,sociology,https://openalex.org/A5088755369,0.08118556701030928,low
+Bandula Jayatilaka,26.0,23,1896,8,University of St. Thomas - Texas,,sociology,https://openalex.org/A5018268687,0.0820446735395189,low
+David Schwieder,28.0,36,1331,6,University of Illinois Urbana-Champaign/University of Florida,,sociology,https://openalex.org/A5065276365,0.08462199312714776,low
+Denis O’Donnell,31.0,22,1671,9,Queen's University,,sociology,https://openalex.org/A5112392844,0.08719931271477661,low
+Angélica Aremy Evangelista García,28.0,44,120,6,El Colegio de la Frontera Sur,,sociology,https://openalex.org/A5010820916,0.08719931271477664,low
+Herbert A. Obu,26.0,22,501,11,University of Nigeria Teaching Hospital,,sociology,https://openalex.org/A5109988845,0.08805841924398626,low
